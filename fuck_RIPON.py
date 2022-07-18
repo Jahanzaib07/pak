@@ -48,7 +48,7 @@ def notice():
 
 	runtxt("\n\033[0;91m🧞‍♀️YOU ARE NOT PREMIUM USER ")
 	runtxt("\033[0;93m 🔇 SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN🧞‍♀️ WATSAPPP🤲https:wa.me/+923086271330")
+	runtxt("\033[0;92m ADMIN🧞‍♀️ WATSAPPP🤲 https:wa.me/+923086271330")
 	subprocess.check_output(["am", "start", "https://wa.me/+9230386271330"])
 
 def irfan():
@@ -75,7 +75,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://raw.githubusercontent.com/sabirsahil707/afghan22/main/afghan22.txt').text
+			plr = requests.get('https://raw.githubusercontent.com/Jahanzaib07/pak/main/premium.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mPREMIUM")
